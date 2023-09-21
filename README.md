@@ -71,4 +71,11 @@ This repository is used to house some of the examples I practiced while learning
  3、并集选择器：可以选择多组标签，同时为他们定义相同的样式，语法为：元素1,元素2 {样式声明} ，同时选中元素1和2<br>
  4、链接伪类选择器：有四个，分别为 a:link(选择还未访问的链接) , a:visited(选择已经访问过的链接) , a:hover(选择鼠标经过的链接) , a:active(选择鼠标按下但还未弹起的链接)<br>
  5、focus伪类选择器：用于选中获得光标的表单元素，主要针对input类的表单元素，语法为：input:focus {样式}
- 
+ <h2>改变元素显示模式</h2>
+ 1、display：inline 转换为行内元素<br>
+ 2、display：block 转换为块元素<br>
+ 3、display：inline-block 转换为行内块元素<br>
+<h2>背景</h2>
+1、背景颜色：通过设置background-color可以改变背景颜色，默认值是transparent（透明）<br>
+2、背景图片：background-image,默认值为none（没有背景图片），要填写url才能显示对应的图片。<br>
+3、背景平铺：background-repeat，默认值为repeat,其他值为no-repeat(不平铺),repeat-x(横向平铺),repeat-y（纵向平铺）
