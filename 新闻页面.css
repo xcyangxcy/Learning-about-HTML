@@ -1,0 +1,50 @@
+h1 {
+    /* 标题文字居中且不加粗 */
+    text-align: center;
+    font-weight: 400;
+}
+
+body {
+    font: 18px/25px "Microsoft yahei";
+}
+
+div {
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+p {
+    text-indent: 2em;
+}
+
+h3 {
+    text-indent: 2em;
+}
+
+span {
+    color: gray;
+}
+
+.search {
+    color: gray;
+}
+
+.btn {
+    font-weight: 700;
+}
+
+.pic {
+    text-align: center;
+}
+
+.picscrip {
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+}
