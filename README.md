@@ -78,4 +78,5 @@ This repository is used to house some of the examples I practiced while learning
 <h2>背景</h2>
 1、背景颜色：通过设置background-color可以改变背景颜色，默认值是transparent（透明）<br>
 2、背景图片：background-image,默认值为none（没有背景图片），要填写url才能显示对应的图片。<br>
-3、背景平铺：background-repeat，默认值为repeat,其他值为no-repeat(不平铺),repeat-x(横向平铺),repeat-y（纵向平铺）
+3、背景平铺：background-repeat，默认值为repeat,其他值为no-repeat(不平铺),repeat-x(横向平铺),repeat-y（纵向平铺）<br>
+4、背景位置：background-poisition  x(top center bottom) y(left center right) ,x与y的属性可以互换顺序，不会影响结果。若只写一个属性，则另一个属性默认为center。 x,y的值也可以是精确单位（px），若是精确单位，则x，y的顺序不能颠倒，若只指定了一个值（默认为x），则y默认是居中。xy也可以是混合单位，第一个值一定是x坐标，第二个是y坐标。<br>
