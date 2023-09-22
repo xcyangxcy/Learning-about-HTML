@@ -83,3 +83,6 @@ This repository is used to house some of the examples I practiced while learning
 5、背景固定：background-attachment  scroll(随着文本一起滚动)||fixed(固定的)，默认值为scroll。<br>
 6、背景简写：color url() repeat attachment poisition  属性无固定顺序，这是平常约定的顺序。<br>
 7、背景颜色半透明：background:rgba(0,0,0,0.5),a属性的值决定了背景颜色的透明度。
+<h2>CSS的三大特性</h2><br>
+1、层叠性：相同选择器设置的相同样式，此时会遵循就近原则，谁离结构进谁就起作用。<br>
+2、继承性：子标签会继承父标签的某些属性（text- font- line color）<br>
