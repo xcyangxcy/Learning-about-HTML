@@ -80,3 +80,6 @@ This repository is used to house some of the examples I practiced while learning
 2、背景图片：background-image,默认值为none（没有背景图片），要填写url才能显示对应的图片。<br>
 3、背景平铺：background-repeat，默认值为repeat,其他值为no-repeat(不平铺),repeat-x(横向平铺),repeat-y（纵向平铺）<br>
 4、背景位置：background-poisition  x(top center bottom) y(left center right) ,x与y的属性可以互换顺序，不会影响结果。若只写一个属性，则另一个属性默认为center。 x,y的值也可以是精确单位（px），若是精确单位，则x，y的顺序不能颠倒，若只指定了一个值（默认为x），则y默认是居中。xy也可以是混合单位，第一个值一定是x坐标，第二个是y坐标。<br>
+5、背景固定：background-attachment  scroll(随着文本一起滚动)||fixed(固定的)，默认值为scroll。<br>
+6、背景简写：color url() repeat attachment poisition  属性无固定顺序，这是平常约定的顺序。<br>
+7、背景颜色半透明：background:rgba(0,0,0,0.5),a属性的值决定了背景颜色的透明度。
