@@ -87,3 +87,18 @@ This repository is used to house some of the examples I practiced while learning
 1、层叠性：相同选择器设置的相同样式，此时会遵循就近原则，谁离结构进谁就起作用。<br>
 2、继承性：子标签会继承父标签的某些属性（text- font- line color）<br>
 3、优先级：设定的样式冲突时，执行的顺序是：继承或*(0000)  元素选择器(0001)  类选择器和伪类选择器(0010)  id选择器  行内样式style(0100)  样式+!imporant(1000),括号中表示选择器的权重。继承的权重是0，如果没有单独选中该元素，不管父元素的权重多高，继承来的权重都是0。若使用复合选择器，则权重会产生叠加，不会进位，需要重新计算，如 ul li {样式} 的权重就是0002。
+<h2>盒子模型</h2>
+盒子模型的组成部分有content(内容),border(边框),padding(内边距),margin(外边距)
+<h4>border(边框)</h4>
+1、border可以设置边框的样式，且会影响盒子的实际大小，有三种属性，语法为：border：border-width(边框粗细)，单位是px || border-style(边框样式，即实线虚线等)，常用的属性有dashed(虚线)，solid(实线)，dotted(点线) || border-color<br>
+2、复合写法:border:width style color 属性没有顺序<br>
+3、边框分开写法：border-top/bottom/left/right 可以分别设置边框的样式<br>
+4、表格细线边框：border-collapse:collapse,合并两个相邻的边框。
+<h4>padding(内边距)</h4>
+1、padding可以设置盒子中内容与边框的距离，同时也会影响盒子的实际大小，语法为：padding-left/right/top/bottom : 值 ，单位是px。<br>
+2、padding的复合写法：padding：值 值的个数代表了不同的样式。
+<strong>若只有一个值：padding：5px 则代表上下左右都是5px的内边距<br>
+若有两个值：padding：5px 10px 代表上下内边距是5px 左右内边距是10px<br>
+若有三个值：padding：5px 10px 20px 代表上内边距是5px 左右内边距是10px 下内边距是20px<br>
+若有四个值：padding：5px 10px 20px 30px 代表上内边距是5 右内边距是10 下内边距是20 左内边距是30</strong><br>
+3、在实际开发中，一般使用padding设置内边距来撑开盒子，而不是为盒子设置固定的值
