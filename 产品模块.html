@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(245, 245, 245);
+        }
+
+        div {
+            margin: auto;
+            background-color: #fff;
+            padding: 20px 0;
+            width: 234px;
+            height: 260px;
+        }
+
+        div img {
+            width: 70%;
+            margin-left: 30px;
+        }
+
+        h4 {
+            font-size: 14px;
+            font-weight: 400;
+            margin: 0 10px 2px;
+            text-align: center;
+        }
+
+        p {
+            display: inline-block;
+            color: rgb(176, 176, 176);
+            font-size: 12px;
+            padding: 0 10px 10px;
+            margin: 2px;
+        }
+
+        .price {
+            padding: 0 12px;
+        }
+
+        .price .num {
+            color: #ff6700;
+            font: 15px/1.5 'Microsoft yahei';
+            text-align: center;
+            padding-left: 50px;
+        }
+
+        del {
+            font: 15px/1.5 'Microsoft yahei';
+            padding-left: 8px;
+        }
+
+        /* 为盒子添加阴影效果 */
+        div:hover {
+            box-shadow: 10px 10px 10px -4px rgb(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="../images/xiaomiTV.jpg" alt="">
+        <h4>小米电视6 至尊版 65英寸</h4>
+        <p>百级分区背光 | 双120Hz高刷 | 4.5GB...</p>
+        <p class="price">
+            <span class="num">6899元</span>
+            <del>7999元</del>
+        </p>
+    </div>
+</body>
+
+</html>
