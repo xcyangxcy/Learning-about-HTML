@@ -96,9 +96,13 @@ This repository is used to house some of the examples I practiced while learning
 4、表格细线边框：border-collapse:collapse,合并两个相邻的边框。
 <h4>padding(内边距)</h4>
 1、padding可以设置盒子中内容与边框的距离，同时也会影响盒子的实际大小，语法为：padding-left/right/top/bottom : 值 ，单位是px。<br>
-2、padding的复合写法：padding：值 值的个数代表了不同的样式。
+2、padding的复合写法：padding：值 值的个数代表了不同的样式。<br>
 <strong>若只有一个值：padding：5px 则代表上下左右都是5px的内边距<br>
 若有两个值：padding：5px 10px 代表上下内边距是5px 左右内边距是10px<br>
 若有三个值：padding：5px 10px 20px 代表上内边距是5px 左右内边距是10px 下内边距是20px<br>
 若有四个值：padding：5px 10px 20px 30px 代表上内边距是5 右内边距是10 下内边距是20 左内边距是30</strong><br>
-3、在实际开发中，一般使用padding设置内边距来撑开盒子，而不是为盒子设置固定的值
+3、在实际开发中，一般使用padding设置内边距来撑开盒子，而不是为盒子设置固定的值<br>
+4、清除内外边距： * {margin: 0;  padding: 0;}<br>
+5、margin控制盒子与盒子之间的间距，与padding的用法基本相同<br>
+<h2>圆角边框</h2>
+border-radius: 值；，单位是px，值越大弧度越大。<br>
