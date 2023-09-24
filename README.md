@@ -106,3 +106,7 @@ This repository is used to house some of the examples I practiced while learning
 5、margin控制盒子与盒子之间的间距，与padding的用法基本相同<br>
 <h2>圆角边框</h2>
 border-radius: 值；，单位是px，值越大弧度越大。<br>
+<h2>盒子阴影</h2>
+语法：box-shadow: h-shadow(必须，水平阴影的位置) v-shadow(垂直阴影的位置) blur(阴影的模糊程度) spread(阴影的尺寸) color(阴影的颜色) inset(改为内部阴影，默认为Outset外部阴影，但改回外部阴影的时候不用再写outset);<br>
+<h2>文字阴影</h2>
+语法：text-shadow: h-shadow(必须，水平阴影的位置) v-shadow(垂直阴影的位置) blur(阴影的模糊程度) color(阴影的颜色)
