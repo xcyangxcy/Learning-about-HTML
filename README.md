@@ -120,4 +120,29 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
    5、清除浮动：很多情况下，父盒子中需要放很多元素，是不方便给固定高度的，最理想的情况就是不给父盒子高度，让子盒子将父盒子撑开，但子盒子是浮动元素，已经脱标，因此不给父盒子设置高度就会使父盒子高度为0，从而影响之后的标准流，这种情况就需要清除浮动，清除浮动的本质就是清除浮动元素的特性，清除浮动后，父盒子就会根据子盒子自动检测高度变化并随之变化。<br>
    6、清除浮动的方法： clear：both  <br> 
       <1>、额外标签法：在最后一个浮动元素后增加一个新的标签（只能为块级元素），在此标签中调用clear的选择器。<br>
+      <2>、为浮动元素的父元素添加overflow代码，一般是overflow:hidden, 也可以是auto，scroll<br>
+      <3>、after伪元素：<pre>.clearfix:after {
+			content: "";
+			display: block;
+			height: 0;
+			visibility: hidden;
+			clear: both;
+		}
+         /* 低版本浏览器 IE6 / IE7 清除浮动样式 */
+		.clearfix {
+			*zoom: 1;  
+		}</pre>
+      <4>、双伪元素清除浮动:<pre>		/* 清除浮动 - 使用双伪元素清除浮动 */
+		.clearfix:before,
+		.clearfix:after {
+			content: "";
+			display: table;
+		}
+         		.clearfix:after {
+			clear: both;
+		}
+         		.clearfix {
+			*zoom: 1;
+		}
+      </pre>
 </strong>
