@@ -1,0 +1,406 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    width: 1200px;
+    height: 42px;
+    margin: 30px auto;
+}
+
+.nav span {
+    float: left;
+    margin-right: 35px;
+    font-size: 18px;
+    line-height: 42px;
+}
+
+.nav .first {
+    margin-left: 70px;
+}
+
+.nav .last {
+    margin-right: 70px;
+}
+
+.search {
+    float: left;
+    width: 412px;
+    height: 38px;
+    border: 1px solid #00a4ff;
+}
+
+.btn img {
+    float: left;
+    margin-right: 25px;
+    height: 40px;
+}
+
+.user {
+    margin: 5px;
+}
+
+.user-name {
+    float: left;
+    margin: 8px 5px;
+    color: #666666;
+}
+
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+img {
+    float: left;
+}
+
+.banner .w {
+    height: 420px;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+}
+
+.subnav {
+    float: left;
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.subnav ul li {
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.subnav ul li span {
+    float: right;
+}
+
+.subnav ul li a:hover {
+    color: #0681c4;
+}
+
+.course {
+    float: right;
+    margin: 50px auto;
+    width: 228px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.course h2 {
+    color: #ffffff;
+    display: inline-block;
+    width: 228px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    background-color: #9bceea;
+}
+
+.course span {
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+.course p {
+    font-size: 12px;
+    color: #cfcfcf;
+
+}
+
+.course .bd {
+    margin: 0 20px;
+    /* margin-bottom: 6px; */
+}
+
+.course ul li {
+    padding: 14px 0;
+    border-bottom: 1px solid #efefef;
+}
+
+.course a {
+    display: inline-block;
+    margin: 5px 15px;
+    width: 200px;
+    height: 38px;
+    border: solid 1px #22b0ff;
+    color: #00a4ff;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: #fff;
+}
+
+.goods {
+    width: 1200px;
+    height: 60px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, .3);
+    line-height: 60px;
+    /* background-color: pink; */
+}
+
+.goods h3 {
+    float: left;
+    color: #00a4ff;
+    font-size: 16px;
+    font-weight: 700;
+    /* line-height: 60px; */
+    /* padding: 0 35px; */
+    padding-left: 35px;
+}
+
+.goods ul {
+    float: left;
+}
+
+.goods ul li {
+    float: left;
+    /* line-height: 60px; */
+    /* padding: 0 35px; */
+}
+
+.goods ul li span {
+    float: left;
+    padding: 0 35px;
+
+}
+
+.goods ul li a {
+    color: #050505;
+}
+
+.interest {
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    color: #00a4ff;
+    margin-right: 15px;
+}
+
+.hd {
+    /* float: left; */
+    color: #494949;
+    height: 80px;
+    line-height: 80px;
+    /* background-color: pink; */
+}
+
+.hd h3 {
+    float: left;
+    margin-left: 5px;
+}
+
+.hd a {
+    margin-right: 20px;
+    float: right;
+    color: #a5a5a5;
+    font-size: 12px;
+}
+
+.detail {
+    width: 1204px;
+    height: 555px;
+    /* background-color: pink; */
+}
+
+.detail ul li {
+    float: left;
+    margin-left: 16px;
+    margin-bottom: 15px;
+    width: 228px;
+    height: 270px;
+    /* background-color: skyblue; */
+}
+
+.detail .first {
+    margin-left: 0;
+}
+
+.detail .sixth {
+    margin-left: 0;
+}
+
+.detail ul li img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.detail ul li p {
+    margin: 0 20px 15px 25px;
+    font-size: 14px;
+}
+
+.detail ul li div {
+    margin: 0px 20px 0 25px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.detail ul li span {
+    color: #ff7c2d;
+}
+
+.rumen {
+    /* float: left; */
+    color: #494949;
+    height: 80px;
+    line-height: 80px;
+    /* background-color: pink; */
+}
+
+.rumen h3 {
+    float: left;
+    margin-left: 5px;
+    margin-right: 350px;
+}
+
+.rumen ul {
+    float: left;
+}
+
+.rumen ul li {
+    float: left;
+    margin-right: 70px;
+}
+
+.rumen a {
+    margin-right: 20px;
+    float: right;
+    color: #a5a5a5;
+    font-size: 12px;
+}
+
+.rumen li a {
+    font-size: 16px;
+}
+
+.rumen li a:hover {
+    color: #00a4ff;
+}
+
+.rumens {
+    margin-top: 15px;
+    height: 392px;
+    /* background-color: pink; */
+}
+
+.rumens .left img {
+    float: left;
+    height: 392px;
+}
+
+.rumens .right {
+    float: left;
+    width: 957px;
+    height: 392px;
+    /* background-color: skyblue; */
+}
+
+.rumens ul li {
+    float: left;
+    margin-left: 10px;
+    width: 228px;
+    height: 270px;
+    /* background-color: blueviolet; */
+}
+
+.rumens ul .banner1 {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 22px;
+    width: 942px;
+    height: 100px;
+}
+
+.rumens ul li img {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.rumens .right h3 {
+    margin: 0 0 20px 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.rumens .right ul li div {
+    margin-left: 20px;
+    font-size: 12px;
+    color: #999;
+}
+
+.rumens .right ul li div span {
+    color: #ff7c2d;
+}
+
+.footer {
+    margin-top: 35px;
+    height: 417px;
+    background-color: #fff;
+}
+
+.footer .w {
+    /* float: left; */
+    /* margin-top: 35px; */
+    padding-top: 30px;
+    height: 387px;
+    /* background-color: darkcyan; */
+}
+
+.footer .w .left {
+    float: left;
+}
+
+.footer .w .left .download {
+    margin-top: 18px;
+    display: inline-block;
+    border: 1px solid skyblue;
+    color: #00a4ff;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.footer .w .right ul {
+    float: left;
+    margin-left: 90px;
+}
+
+.footer .w .right h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 400;
+}
+
+.footer .w .right ul li a {
+    color: #333333;
+}
