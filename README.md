@@ -155,3 +155,7 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
 	      固定定位小技巧：将盒子定位在版心的右侧：为盒子添加绝对定位走浏览器一半的宽度，再利用margin-left走版心盒子一半的宽度即可<br>
 5、粘性定位：语法：选择器{position：sticky}，以浏览器的可视窗口为标准移动，占有原来的位置，在使用时必须至少添加一个边偏移元素才能起效果，可以看作相对定位和绝对定位的结合。<br>
 6、可以通过z-index属性改变定位盒子的优先级，即叠放顺序。<br>
+<h2>元素的显示与隐藏</h2>
+1、display：none可以隐藏元素，display：block可以显示元素，隐藏的元素不再占有位置。<br>
+2、visiblity:hidden隐藏元素，visiblity:visible显示元素，隐藏的元素仍然占有位置。<br>
+3、overflow:只处理溢出的部分元素，overflow:hidden可以隐藏溢出部分的元素，overflow:auto可以在文本溢出时添加滚动条，overflow:scroll总是显示滚动条，默认是overflow:visible，不处理溢出元素。<br>
