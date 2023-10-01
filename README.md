@@ -159,3 +159,12 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
 1、display：none可以隐藏元素，display：block可以显示元素，隐藏的元素不再占有位置。<br>
 2、visiblity:hidden隐藏元素，visiblity:visible显示元素，隐藏的元素仍然占有位置。<br>
 3、overflow:只处理溢出的部分元素，overflow:hidden可以隐藏溢出部分的元素，overflow:auto可以在文本溢出时添加滚动条，overflow:scroll总是显示滚动条，默认是overflow:visible，不处理溢出元素。<br>
+<h2>精灵图sprites</h2>
+1、精灵图主要针对于小的背景图片使用，主要借助于backgroung-position来实现，一般情况下精灵图都是负值(网页中x轴向右，y轴向下),精灵图的实现可以看作是有一个小盒子在精灵图上移动，想要显示哪张图片就要移动（实际上移动的是sprites背景图）至相应的坐标位置。<br>
+代码案例：<pre>
+  .box {
+	width: 27px;
+	height: 25px;
+	background: url(sprites.png) no-repeat -155px -106px;
+}
+</pre>
