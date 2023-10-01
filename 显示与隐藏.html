@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .cover {
+            position: relative;
+            margin: 100px auto;
+            width: 490px;
+            height: 275px;
+            background-color: pink;
+        }
+
+        .cover img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .mask {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 490px;
+            height: 275px;
+            background: rgba(0, 0, 0, .4) url(../images/arr.jpg) no-repeat center;
+        }
+
+        .cover:hover .mask {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cover">
+        <img src="../images/cover.png" alt="">
+        <div class="mask"> </div>
+    </div>
+</body>
+
+</html>
