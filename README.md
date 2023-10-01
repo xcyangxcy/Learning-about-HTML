@@ -175,3 +175,5 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
 4、后续追加新的图标需要在网页中选择selection.json文件重新下载，然后把原来的fonts文件替换掉。<br>
 <h2>用户界面</h2>
 1、鼠标样式：cursor:值， 值有default(默认光标，小箭头)， pointer(小手)， move(移动，十字架)， text(文本)， not-allowed(禁止样式)
+2、取消表单默认轮廓颜色：outline:0或none,可以把聚焦后表单边框的默认蓝色去除。<br>
+3、文本域防拖拽：resize:none,用户不能改变文本域的大小。<br>
