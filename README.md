@@ -168,3 +168,8 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
 	background: url(sprites.png) no-repeat -155px -106px;
 }
 </pre>
+<h2>字体图标</h2>
+1、字体图标iconfont,展现的是图标，实质上是文字，可以更改颜色大小等属性。<br>
+2、字体图标是在网上已经制作好的图标，直接下载使用即可。https://icomoon.io<br>
+3、字体图标的引入：在网页中下载好字体突变压缩文件后，将其中的fonts文件放在根目录中，复制好引入所需的代码放在style中。<br>
+4、后续追加新的图标需要在网页中选择selection.json文件重新下载，然后把原来的fonts文件替换掉。<br>
