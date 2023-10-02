@@ -177,3 +177,10 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
 1、鼠标样式：cursor:值， 值有default(默认光标，小箭头)， pointer(小手)， move(移动，十字架)， text(文本)， not-allowed(禁止样式)
 2、取消表单默认轮廓颜色：outline:0或none,可以把聚焦后表单边框的默认蓝色去除。<br>
 3、文本域防拖拽：resize:none,用户不能改变文本域的大小。<br>
+<h2>溢出文字省略号显示</h2>
+1、单行文字：首先将文字强制单行显示(white:nowrap),然后去除文字的溢出部分(overflow:hidden),最后显示省略号(text-overflow:ellipsis)
+<h2>H5提高</h2>
+1、新增语义化标签：<header>头部标签，<nav>导航标签，<article>内容标签，<section>定义文档某个区域,<aside>侧边栏标签，<footer>尾部标签。<br>
+2、新增视频标签：video:src="视频地址" autoplay视频自动播放 controls显示播放控件 width,height修改视频大小 loop视频循环播放 muted静音播放，谷歌浏览器需要添加此属性 poster加载等待的画面图片,视频文件最好用mp4格式<br>
+3、新增音频标签：audio:src="视频地址" autoplay视频自动播放 controls显示播放控件 muted静音播放，谷歌浏览器需要添加此属性 音频文件最好用mp3格式 <br>
+4、新增表单属性：required表示内容不能为空，必填  placeholder="提示文本"，表单的默认提示信息  autofocus自动聚焦到指定表单  autocomolete=on/off 表示是否自动保存并显示历史记录，一般为off  multiple可以多选文件提交<br>
