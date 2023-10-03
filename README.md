@@ -197,3 +197,4 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
 1、选择第一个子元素，例如：ul li:first-child，可以选中ul中的第一个li元素<br>
 2、选择最后一个子元素，例如：ul li:last-child,可以选中ul中的最后一个li元素<br>
 3、选择任意一个或多个子元素nth-child(n)，n的值是从0开始的。例如：ul li:nth-child(2),可以选中ul中的第二个li元素，child(n)中的n可以是任意数字、关键字或公式，例如：ul li:nth-child(even/odd)可以选中偶数或奇数的子代。若写公式，括号内的字母只能为n，例如：ol li:nth-child(2n/2n+1/...)，可以根据公式灵活选择子代<br>
+4、与nth-child(n)对应的是nth-of-type(n),两者的用法和效果基本相同，但是nth-child在使用时会将所有的元素排序，在执行时首先看 :nth-child(n),然后再回头看是什么类型，因此若子元素中的类型不同则不容易选中对应的元素。而nth-of-type在执行时只会将对应类型的元素排序，如：section div:nth-of-type(1),在执行时首先看div，然后再看nth-of-type(1)，最后选中子元素中第一个div元素。<br>
