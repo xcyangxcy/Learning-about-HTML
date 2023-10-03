@@ -198,3 +198,9 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
 2、选择最后一个子元素，例如：ul li:last-child,可以选中ul中的最后一个li元素<br>
 3、选择任意一个或多个子元素nth-child(n)，n的值是从0开始的。例如：ul li:nth-child(2),可以选中ul中的第二个li元素，child(n)中的n可以是任意数字、关键字或公式，例如：ul li:nth-child(even/odd)可以选中偶数或奇数的子代。若写公式，括号内的字母只能为n，例如：ol li:nth-child(2n/2n+1/...)，可以根据公式灵活选择子代<br>
 4、与nth-child(n)对应的是nth-of-type(n),两者的用法和效果基本相同，但是nth-child在使用时会将所有的元素排序，在执行时首先看 :nth-child(n),然后再回头看是什么类型，即先找到第n个子代，再匹配前面的元素类型，因此若子元素中的类型不同则不容易选中对应的元素。而nth-of-type在执行时只会将对应类型的元素排序，如：section div:nth-of-type(1),在执行时首先看div，然后再看nth-of-type(1)，即先匹配前面的元素类型，再找到第n个子代，最后选中子元素中第一个div元素。<br>
+<h3>伪元素选择器</h3>
+1、语法：element::before/after{content='' },before和after会创建一个行内元素,创建的元素会插入element的前面或后面<br>
+2、伪元素属于element的子代<br>
+<h3>CSS过渡</h3>
+1、语法：transition:要过渡的属性  花费时间(s)  运动曲线（速度）  何时开始（延迟）；最后两个一般可以省略<br>
+2、属性：想要变化的css属性，宽，高，背景颜色等都可以，如果想要过渡所有属性，将第一个值写成all即可<br>
