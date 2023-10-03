@@ -184,3 +184,16 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
 2、新增视频标签：video:src="视频地址"。 autoplay视频自动播放。 controls显示播放控件。 width,height修改视频大小。 loop视频循环播放。 muted静音播放，谷歌浏览器需要添加此属性。 poster加载等待的画面图片,视频文件最好用mp4格式<br>
 3、新增音频标签：audio:src="视频地址"。 autoplay视频自动播放。 controls显示播放控件。 muted静音播放，谷歌浏览器需要添加此属性。 音频文件最好用mp3格式 <br>
 4、新增表单属性：required表示内容不能为空，必填。placeholder="提示文本"，表单的默认提示信息。  autofocus自动聚焦到指定表单。  autocomolete=on/off 表示是否自动保存并显示历史记录，一般为off。  multiple可以多选文件提交<br>
+<h2>CSS3提高</h2>
+<h3>新增属性选择器</h3>
+属性的选择必须用中括号包起来<br>
+1、选择具有某属性的标签，例如：input[value]表示选中包含value属性的input标签<br>
+2、选择属性等于某值的标签，例如：input[type="text"]表示选中type值等于text的input标签<br>
+3、选择属性以某个值为开头的标签，例如：input[class^="icon"]表示选择以icon为开头的含有class属性的标签<br>
+4、选择属性以某个值为结尾的标签，例如：input[class$="data"]表示选择以data为结尾的含有class属性的标签<br>
+5、选择属性中含有某个值的标签，例如：input[class*="age"]，只要属性的值中含有age即可被选中<br>
+<h2>结构选择器</h2>
+结构选择器通常用来选择后代属性，用冒号连接<br>
+1、选择第一个子元素，例如：ul li:first-child，可以选中ul中的第一个li元素<br>
+2、选择最后一个子元素，例如：ul li:last-child,可以选中ul中的最后一个li元素<br>
+3、选择任意一个或多个子元素nth-child(n)，n的值是从0开始的。例如：ul li:nth-child(2),可以选中ul中的第二个li元素，child(n)中的n可以是任意数字、关键字或公式，例如：ul li:nth-child(even/odd)可以选中偶数或奇数的子代。若写公式，括号内的字母只能为n，例如：ol li:nth-child(2n/2n+1/...)，可以根据公式灵活选择子代<br>
