@@ -204,3 +204,14 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
 <h3>CSS过渡</h3>
 1、语法：transition:要过渡的属性  花费时间(s)  运动曲线（速度）  何时开始（延迟）；最后两个一般可以省略<br>
 2、属性：想要变化的css属性，宽，高，背景颜色等都可以，如果想要过渡所有属性，将第一个值写成all即可<br>
+<h3>2D转换</h3>
+1、移动：transform:translate(x,y);或者分开写translateX(),translateY()，translate对行内标签没有作用，但不会影响到其他元素，移动时以x,y轴为基准，其中的百分比单位是相对于自身大小的。可以配合绝对定位实现盒子的垂直水平居中。如：<br>
+<pre>
+	div {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	}
+
+</pre>
