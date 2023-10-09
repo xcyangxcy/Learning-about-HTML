@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?ctmi5m');
+    src: url('../fonts/icomoon.eot?ctmi5m#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?ctmi5m') format('truetype'),
+        url('../fonts/icomoon.woff?ctmi5m') format('woff'),
+        url('../fonts/icomoon.svg?ctmi5m#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 快捷导航栏 */
+.shortcut {
+    line-height: 30px;
+    height: 30px;
+    background-color: #f1f1f1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.fl ul li {
+    float: left;
+}
+
+.fr ul li {
+    float: right;
+}
+
+/* 小竖线 */
+.shortcut .fr ul li:nth-child(even) {
+    margin: 9px 12px 0;
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+}
+
+/* 下拉箭头 */
+.shortcut .fr ul .arrow-icon::after {
+    margin-left: 5px;
+    content: '\e900';
+    font-family: 'icomoon';
+    color: #767676;
+    font-size: 6px;
+}
+
+.header {
+    position: relative;
+    height: 105px;
+    /* background-color: pink; */
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+}
+
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.shopcar {
+    position: absolute;
+    width: 57px;
+    height: 19px;
+    left: 192px;
+    top: 37px;
+}
+
+.shopcar h4 {
+    font-weight: 400;
+    font-size: 19px;
+    color: #333;
+}
+
+.header .search {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    width: 538px;
+    height: 36px;
+
+    border: 2px solid #b1191a;
+}
+
+.header .search input {
+    float: left;
+    padding-left: 10px;
+    outline: none;
+    height: 32px;
+    width: 454px;
+}
+
+.header .search button {
+    float: left;
+    width: 80.6px;
+    height: 33px;
+    background-color: #b1191a;
+    color: #fff;
+}
+
+.spc_hd {
+    height: 120px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.spc_hd>span {
+    font-size: 14px;
+    color: #c81623;
+}
+
+.spc_nav {
+    margin-top: 24px;
+    height: 36px;
+    line-height: 32px;
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd;
+}
+
+.spc_nav input {
+    vertical-align: middle;
+}
+
+.spc_nav span:nth-child(n+2) {
+    font-size: 12px;
+}
+
+.spc_nav .all {
+    margin-right: 200px;
+}
+
+.product {
+    margin-right: 335px;
+}
+
+.price,
+.num,
+.sum {
+    margin-right: 114px;
+}
+
+.my_product {
+    position: relative;
+    margin-top: 20px;
+    height: 110px;
+    border: 1px solid #dddddd;
+}
+
+.my_product li {
+    float: left;
+}
+
+.my_product img {
+    position: absolute;
+    top: 14px;
+    left: 36px;
+}
+
+.my_product .detail {
+    position: relative;
+    margin-left: 127px;
+    width: 314px;
+}
+
+.my_product .detail p {
+    font-size: 12px;
+    color: #333;
+}
+
+.my_product .detail .color {
+    float: right;
+}
+
+.my_product .detail .buy p {
+    height: 17px;
+    float: left;
+    line-height: 21px;
+    color: #999999;
+}
+
+.my_product .detail .buy p::before {
+    content: '\e909';
+    font-family: 'icomoon';
+    color: #c81623;
+    margin-right: 8px;
+}
+
+.price1 {
+    float: left;
+    margin-top: -50px;
+    margin-left: 485px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.my_product .detail .num {
+    /* float: left; */
+    position: absolute;
+    left: 615px;
+    top: -8px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+.my_product .detail .num span {
+    display: inline-block;
+    padding: 0 15px;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    width: 38px;
+}
+
+.my_product .detail .sum p {
+    position: absolute;
+    left: 790px;
+    top: -3px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.my_product .detail .ope p {
+    position: absolute;
+    right: -710px;
+    top: -10px;
+    line-height: 20px;
+}
+
+.spc_clear {
+    margin-bottom: 200px;
+    margin-top: 21px;
+    height: 52px;
+    line-height: 52px;
+    border: 1px solid #dddddd;
+}
+
+.spc_clear>span {
+    font-size: 12px;
+    color: #666;
+    margin-right: 10px;
+}
+
+.spc_clear .clear p {
+    display: inline-block;
+}
+
+.spc_clear .clear,
+button {
+    float: right;
+}
+
+.spc_clear .clear span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #e60012;
+}
+
+.spc_clear button {
+    margin-left: 32px;
+    width: 109px;
+    height: 50px;
+    background-color: #e60012;
+    color: #fff;
+}
+
+.footer {
+    padding-top: 30px;
+    height: 417px;
+    background-color: #f5f5f5;
+}
+
+.mod_service {
+    height: 80px;
+    border-bottom: 1px solid #ededed;
+}
+
+.mod_service ul li {
+    float: left;
+    padding-left: 35px;
+    width: 240px;
+    height: 50px;
+    /* background-color: pink; */
+}
+
+.service_txt h4 {
+    margin: 5px 0 5px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.service_txt p {
+    font-size: 12px;
+    color: #666666;
+}
+
+.mod_service ul li h5 {
+    float: left;
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+.mod_service ul li .quality {
+    background: url(../images/icons.jpg) no-repeat -253px -3px;
+}
+
+.mod_service ul li .transport {
+    background: url(../images/icons.jpg) no-repeat -255px -53px;
+}
+
+.mod_service ul li .after_sale {
+    background: url(../images/icons.jpg) no-repeat -256px -106px;
+}
+
+.mod_service ul li .character {
+    background: url(../images/icons.jpg) no-repeat -257px -155px;
+}
+
+.mod_service ul li .help {
+    background: url(../images/icons.jpg) no-repeat -256px -208px;
+}
+
+.mod_help {
+    height: 190px;
+    border-bottom: 1px solid #ededed;
+}
+
+.mod_help dl {
+    float: left;
+    padding-top: 20px;
+    margin-left: 50px;
+    width: 150px;
+}
+
+.mod_help dl:last-child {
+    text-align: center;
+    width: 75px;
+}
+
+.mod_help dl:last-child p {
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.mod_help dl dt {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.mod_help dl dd {
+    font-size: 12px;
+}
+
+.mod_copyright {
+    text-align: center;
+}
+
+.mod_copyright .links a {
+    margin: 0 15px;
+    font-size: 12px;
+}
+
+.mod_copyright .copyright {
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}

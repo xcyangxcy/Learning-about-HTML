@@ -1,0 +1,180 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 85px;
+    border-bottom: 2px solid #b1191a;
+}
+
+header .logo {
+    padding-top: 16px;
+}
+
+.registerarea {
+    height: 520px;
+    border: 1px solid #dfdfdf;
+    margin-top: 23px;
+}
+
+.registerarea .reg_hd {
+    padding: 0 10px;
+    height: 41px;
+    line-height: 41px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.registerarea .reg_hd p {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.registerarea .reg_hd .login {
+    float: right;
+    font-size: 14px;
+    color: #333;
+}
+
+.registerarea .reg_hd .login a {
+    color: #c81623;
+}
+
+.registerarea .reg_form {
+    margin: 50px auto;
+    width: 565px;
+    height: 370px;
+    /* background-color: pink; */
+}
+
+.registerarea .reg_form input {
+    width: 240px;
+    height: 37px;
+    border: 1px solid #999999;
+}
+
+.registerarea .reg_form .verify {
+    width: 150px;
+}
+
+.registerarea .reg_form .ver {
+    width: 85px;
+    height: 37px;
+    background-color: gray;
+}
+
+.registerarea .reg_form li {
+    margin-top: 20px;
+}
+
+.registerarea .reg_form li label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.registerarea .reg_form .error {
+    color: #df3033;
+    font-size: 12px;
+}
+
+.registerarea .reg_form .error {
+    /* display: inline-block; */
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.registerarea .reg_form .success {
+    color: #40b83f;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.security p {
+    display: inline-block;
+    margin-left: 151px;
+    margin-right: 9px;
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+.security span {
+    display: inline-block;
+    width: 34px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.security .ruo {
+    font-size: 12px;
+    background-color: #de1111;
+}
+
+.security .mid {
+    margin-left: -3px;
+    font-size: 12px;
+    background-color: #40b83f;
+}
+
+.security .strong {
+    margin-left: -3px;
+    font-size: 12px;
+    background-color: #f79100;
+}
+
+.approve {
+    margin-left: 93px;
+    margin-top: 43px;
+}
+
+.approve p {
+    display: inline-block;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+
+.approve a {
+    color: #1ba1e6;
+    font-size: 12px;
+}
+
+.reg_form .approve .selected {
+    width: 16px;
+    height: 16px;
+    background-color: #f2f2f2;
+    vertical-align: middle;
+}
+
+.finished .btn {
+    margin-left: 96px;
+    margin-top: 20px;
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+}
+
+.finished .btn p {
+    color: #fff;
+}
+
+.footer {
+    margin-top: 25px;
+}
+
+.mod_copyright {
+    text-align: center;
+}
+
+.mod_copyright .links a {
+    margin: 0 15px;
+    font-size: 12px;
+}
+
+.mod_copyright .copyright {
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}

@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?4ue0mi');
+    src: url('../fonts/icomoon.eot?4ue0mi#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?4ue0mi') format('truetype'),
+        url('../fonts/icomoon.woff?4ue0mi') format('woff'),
+        url('../fonts/icomoon.svg?4ue0mi#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 85px;
+    /* border-bottom: 2px solid #b1191a; */
+}
+
+header .logo {
+    padding-top: 16px;
+}
+
+/* login主体部分 */
+.login {
+    background-color: #7e00ff;
+    height: 490px;
+
+}
+
+.login .w img {
+    float: left;
+    height: 490px;
+}
+
+.login .login_inp {
+    float: left;
+    padding: 22px 37px 0 39px;
+    width: 379px;
+    height: 362px;
+    margin-top: 62px;
+    margin-left: 100px;
+    background-color: #fff;
+}
+
+.login .login_inp a {
+    font-size: 18px;
+}
+
+.login .login_inp .detail {
+    width: 303px;
+    height: 261px;
+}
+
+.login .login_inp .detail .alarm {
+    margin-top: 41px;
+    padding-left: 13px;
+    width: 303px;
+    height: 26px;
+    line-height: 26px;
+    color: #666666;
+    font-size: 12px;
+    background-color: #f5eecf;
+}
+
+.login .login_inp .detail li {
+    margin-top: 18px;
+    width: 303px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #bbbaba;
+}
+
+.login .login_inp .detail .user {
+    margin-top: 10px;
+}
+
+.detail .user::before {
+    content: '\e971';
+    font-family: 'icomoon';
+    margin-right: 8px;
+    font-size: 30px;
+    color: #cfcdcd;
+    vertical-align: middle;
+}
+
+.detail .lock::before {
+    content: '\e98f';
+    font-family: 'icomoon';
+    margin-left: 6px;
+    font-size: 30px;
+    color: #cfcdcd;
+    vertical-align: middle;
+}
+
+.login .login_inp .detail li:hover {
+    border-color: #3aa2e4;
+}
+
+.login .login_inp .detail .fgt {
+    font-size: 12px;
+    color: #b3b3b3;
+    border: 0;
+}
+
+.login .login_inp .detail .fgt input {
+    vertical-align: middle;
+}
+
+.login .login_inp .detail .fgt a {
+    float: right;
+    /* margin-top: 3px; */
+    font-size: 12px;
+    color: #333333;
+}
+
+.login .login_inp .detail button {
+    /* margin-top: 15px; */
+    width: 303px;
+    height: 41px;
+    color: #fff;
+    background-color: #c81623;
+}
+
+.login .login_inp .ways {
+    float: left;
+    margin-left: -19px;
+}
+
+.login .login_inp .reg {
+    float: right;
+    margin-top: 15px;
+    color: #1474af;
+    font-size: 14px;
+}
+
+/* 底部 */
+.footer {
+    margin-top: 25px;
+}
+
+.mod_copyright {
+    text-align: center;
+}
+
+.mod_copyright .links a {
+    margin: 0 15px;
+    font-size: 12px;
+}
+
+.mod_copyright .copyright {
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}

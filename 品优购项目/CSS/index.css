@@ -1,0 +1,660 @@
+.main {
+    margin-left: 220px;
+    width: 980px;
+    height: 466px;
+    /* background-color: pink; */
+}
+
+/* 焦点图 */
+.main .focus {
+    float: left;
+    margin-left: 3px;
+    margin-top: 10px;
+    width: 721px;
+    height: 455px;
+    /* background: url(../upload/focus1.png) no-repeat; */
+    /* background-color: skyblue; */
+}
+
+/* 新闻快报 */
+.main .newsflash {
+    float: right;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 250px;
+    height: 455px;
+    /* background-color: aqua; */
+}
+
+.main .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.main .lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    border-right: 0;
+}
+
+.bargin {
+    margin-top: 6px;
+    height: 75px;
+}
+
+.bargin img {
+    width: 100%;
+}
+
+.main .newsflash .news .news_hd {
+    padding: 0 15px;
+    line-height: 32px;
+    height: 32px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.main .newsflash .news .news_hd h3 {
+    float: left;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.main .newsflash .news .news_hd a {
+    position: relative;
+    margin-right: 15px;
+    float: right;
+    font-size: 13px;
+}
+
+.main .newsflash .news .news_hd a::after {
+    position: absolute;
+    right: -15px;
+    content: '\e907';
+    font-family: 'icomoon';
+}
+
+.newsflash .news_bd ul {
+    margin-top: 2px;
+    margin-left: 15px;
+    line-height: 24px;
+}
+
+.newsflash .news_bd li a {
+    font-size: 12px;
+}
+
+.newsflash .news_bd li span {
+    font-weight: 700;
+}
+
+.lifeservice li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.lifeservice i {
+    display: inline-block;
+    margin-top: 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.lifeservice .hf i {
+    background: url(../images/icons.jpg) no-repeat -15px -15px;
+}
+
+.lifeservice .jp i {
+    background: url(../images/icons.jpg) no-repeat -76px -15px;
+}
+
+.lifeservice .dyp i {
+    background: url(../images/icons.jpg) no-repeat -140px -15px;
+}
+
+.lifeservice .game i {
+    background: url(../images/icons.jpg) no-repeat -204px -15px;
+}
+
+.lifeservice .cp i {
+    background: url(../images/icons.jpg) no-repeat -15px -87px;
+}
+
+.lifeservice .jyk i {
+    background: url(../images/icons.jpg) no-repeat -78px -87px;
+}
+
+.lifeservice .hotel i {
+    background: url(../images/icons.jpg) no-repeat -140px -87px;
+}
+
+.lifeservice .hcp i {
+    background: url(../images/icons.jpg) no-repeat -202px -87px;
+}
+
+.lifeservice .zc i {
+    background: url(../images/icons.jpg) no-repeat -15px -155px;
+}
+
+.lifeservice .lc i {
+    background: url(../images/icons.jpg) no-repeat -78px -155px;
+}
+
+.lifeservice .lpk i {
+    background: url(../images/icons.jpg) no-repeat -141px -153px;
+}
+
+.lifeservice .bt i {
+    background: url(../images/icons.jpg) no-repeat -204px -155px;
+}
+
+.recom {
+    margin-top: 10px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+
+.recom ul li {
+    position: relative;
+    float: left;
+    width: 248px;
+    height: 163px;
+    padding-left: 25px;
+    border-right: 1px solid #dddddd;
+}
+
+.recom ul li:last-child {
+    border-right: 0;
+}
+
+.recom ul li:first-child {
+    float: left;
+    height: 163px;
+    width: 206px;
+    text-align: center;
+    background-color: #5c5251;
+}
+
+.recom ul li:first-child p {
+    position: absolute;
+    bottom: 46px;
+    left: 65px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.recom ul li:first-child::before {
+    position: absolute;
+    top: 31px;
+    left: 74px;
+    content: '\e90b';
+    font-family: 'icomoon';
+    font-size: 55px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.recom ul li:nth-child(n+2) {
+    margin-top: 10px;
+    height: 143px;
+}
+
+.recom ul li h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #333333;
+    font-size: 16px;
+}
+
+.recom ul li:nth-child(n+2) p {
+    width: 80px;
+    height: 18px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #00a0e8;
+}
+
+.recom ul li:nth-child(n+2) .bl {
+    color: #666666;
+    font-size: 12px;
+    background-color: transparent;
+}
+
+.recom ul li:nth-child(n+2) img {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+.style_green {
+    background-color: #5fb200 !important;
+}
+
+.style_red1 {
+    background-color: #e2162f !important;
+}
+
+.style_blue {
+    background-color: #0085fb !important;
+}
+
+.recom ul li:nth-child(n+2) .buy {
+    width: 57px;
+    height: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.w .guess {
+    line-height: 48px;
+    height: 48px;
+}
+
+.w .guess p {
+    float: left;
+}
+
+.w .guess .change {
+    float: right;
+    font-size: 12px;
+}
+
+.w .guess .change::after {
+    margin-left: 8px;
+    margin-right: 12px;
+    content: '\e982';
+    font-family: 'icomoon';
+    font-size: 12px;
+}
+
+.w .detail {
+    height: 233px;
+    border: 1px solid #ededed;
+    /* background-color: pink; */
+}
+
+.w .detail ul {
+    padding-top: 10px;
+}
+
+.w .detail li {
+    float: left;
+    width: 199.5px;
+    height: 213px;
+    border-right: 1px solid #ededed;
+}
+
+.w .detail li img {
+    margin-left: 20px;
+    /* margin-bottom: 10px; */
+}
+
+.w .detail li:last-child {
+    border-right: 0;
+}
+
+.w .detail p {
+    margin-left: 36px;
+    font-size: 12px;
+    color: #666666;
+    line-height: 21px;
+    text-align: left;
+}
+
+.w .detail .price {
+    font-size: 14px;
+    font-weight: 700;
+    color: #df3033;
+    margin-left: 36px;
+    /* margin-bottom: 5px; */
+}
+
+.w .detail .bag img {
+    margin-bottom: 2px;
+}
+
+.w .detail .pan img {
+    margin-bottom: 20px;
+}
+
+.w .detail li:nth-child(n+3) img {
+    margin-bottom: 15px;
+}
+
+.w .detail .jabra img {
+    margin-left: 80px;
+}
+
+.w .detail .light img {
+    margin-top: 65px;
+    margin-left: 40px;
+}
+
+.w .detail .ssg img {
+    margin-left: 40px;
+}
+
+.w .detail .jhl img {
+    margin-left: 70px;
+}
+
+.floor .box_hd {
+    margin-top: 30px;
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.floor .box_hd h3 {
+    float: left;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.floor .box_hd .tab_list ul {
+    float: right;
+    line-height: 30px;
+}
+
+.floor .box_hd .tab_list ul li {
+    float: left;
+    font-size: 12px;
+}
+
+.box_hd ul li a {
+    margin: 0 15px;
+    font-size: 12px;
+}
+
+.box_bd .tab_content {
+    height: 360px;
+    /* background-color: pink; */
+}
+
+.col_209 {
+    position: relative;
+    padding-left: 12px;
+    background-color: #f9f9f9;
+    width: 209px;
+}
+
+.col_209 li {
+    float: left;
+    margin-right: 10px;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+}
+
+.col_209 li a {
+    font-size: 12px;
+    line-height: 33px;
+    color: #666666;
+}
+
+.col_209 p {
+    text-align: center;
+    color: #c81623;
+}
+
+.col_209 .txt {
+    position: absolute;
+    height: 35px;
+    top: 125px;
+    left: 50px;
+}
+
+.col_209 img {
+    position: absolute;
+    bottom: 39px;
+    left: 27px;
+}
+
+.col_209 .one {
+    font-size: 18px;
+}
+
+.col_209 .two {
+    font-size: 12px;
+}
+
+.col_329 {
+    position: relative;
+    width: 329px;
+    background-color: #aed6d8;
+}
+
+.col_329 .txt {
+    position: absolute;
+    top: 38px;
+    left: 31px;
+}
+
+.col_329 p {
+    text-align: left;
+    color: #066c7d;
+}
+
+.col_329 .one {
+    font-size: 18px;
+}
+
+.col_329 .two {
+    font-size: 14px;
+}
+
+.col_329 img {
+    position: absolute;
+    left: 50px;
+    bottom: 48px;
+}
+
+.col_221 {
+    position: relative;
+    width: 221px;
+}
+
+.col_221 a {
+    display: block;
+    height: 180px;
+    border-bottom: 1px solid #ededed;
+}
+
+.col_221 .txt {
+    position: absolute;
+    top: 25px;
+    left: 19px;
+}
+
+.col_221 .hongbei {
+    position: absolute;
+    right: 1px;
+    top: 95px;
+}
+
+.col_221 .txt .one {
+    font-size: 16px;
+    color: #000;
+}
+
+.col_221 .txt .two {
+    font-size: 14px;
+    color: #e60012;
+}
+
+.col_221 .txt1 {
+    position: absolute;
+    top: 203px;
+    left: 19px;
+}
+
+.col_221 .txt1 .one {
+    font-size: 16px;
+    color: #000;
+}
+
+.col_221 .txt1 .two {
+    font-size: 14px;
+    color: #e60012;
+}
+
+.col_221 .tv1 {
+    position: absolute;
+    right: 1px;
+    top: 255px;
+}
+
+.tv2 a {
+    border-left: 1px solid #ededed;
+    height: 360px;
+    /* border: none; */
+}
+
+.tv2 .txt {
+    position: absolute;
+    text-align: center;
+    top: 72px;
+    left: 32px;
+}
+
+.tab_list_item .tv2 .one {
+    color: #000;
+    font-size: 18px;
+}
+
+.tab_list_item .tv2 .two {
+    font-size: 16px;
+    color: #999;
+}
+
+.tv2 img {
+    position: absolute;
+    left: 22px;
+    bottom: 54px;
+}
+
+.col_219 {
+    position: relative;
+    width: 219px;
+}
+
+.col_219 a {
+    display: block;
+    height: 180px;
+    border-bottom: 1px solid #ededed;
+}
+
+.col_219 .txt {
+    position: absolute;
+    top: 25px;
+    left: 19px;
+}
+
+.col_219 .kongtiao {
+    position: absolute;
+    right: 1px;
+    top: 95px;
+}
+
+.col_219 .txt .one {
+    font-size: 16px;
+    color: #000;
+}
+
+.col_219 .txt .two {
+    font-size: 14px;
+    color: #e60012;
+}
+
+.col_219 .txt1 {
+    position: absolute;
+    top: 203px;
+    left: 19px;
+}
+
+.col_219 .txt1 .one {
+    font-size: 16px;
+    color: #000;
+}
+
+.col_219 .txt1 .two {
+    font-size: 14px;
+    color: #e60012;
+    /* width: 90px; */
+}
+
+.col_219 .fan {
+    position: absolute;
+    right: 0px;
+    top: 233px;
+}
+
+
+.box_bd .tab_list_item div {
+    float: left;
+    height: 360px;
+}
+
+.w .sponsor {
+    margin-top: 20px;
+    height: 65px;
+}
+
+.right_now {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 331px;
+    /* background-color: pink; */
+}
+
+/* .right_now ul {
+    border: 1px solid #ededed;
+} */
+
+/* .right_now ul li {
+    float: left;
+    height: 286px;
+    border: 1px solid #ededed;
+}
+
+.right_now ul li:nth-child(n+2) {
+    border-left: 0;
+}
+
+.right_now ul li:nth-child(2),
+li:nth-child(3),
+li:nth-child(4) {
+    border-bottom: 0;
+} */
+
+.col_238 {
+    width: 238px;
+}
+
+.col_220 {
+    width: 220px;
+}
+
+.col_220 a {
+    display: block;
+    height: 143px;
+    border-bottom: 1px solid #ededed;
+}
+
+.col_298 {
+    width: 298px;
+}
+
+.right_now img {
+    margin-top: -25px;
+    margin-left: -8px;
+}
