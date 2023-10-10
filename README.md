@@ -247,4 +247,5 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
 	animation-direction:规定动画是否在下一周期逆向播放,默认是normal,alternate逆向播放<br>
 	animation-play-state:控制动画的播放和暂停，默认是running，还有paused<br>
 	animation-fill-mode:规定动画结束后的状态，forwards保持backwards回到起始<br>
+	简写属性：animation:名称  持续时间  运动曲线  何时开始  播放次数  是否反方向  结束状态
 </strong>
