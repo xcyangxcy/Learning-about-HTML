@@ -215,3 +215,36 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
 	}
 
 </pre>
+2、旋转：transform:rotate(度数),单位时deg，正数顺时针，负数逆时针，默认旋转点是元素中心。transform-origin：x,y可以改变旋转的中心点，x,y可以是具体数值也可以是方位名词(top, left, bottom, right)。<br>
+3、缩放：transform:scale(x,y);x,y代表放大的倍数，若小于一则缩小，这种方法不会影响其他元素，且可以设置中心点的位置。<br>
+4、transform简写：transform:translate()  rotate()  scale()  顺序不能改变。<br>
+<h3>animation动画</h3>
+1、定义动画，例：<br>
+<pre>
+	@keyframes 动画名称 {
+	#动画开始状态
+	0%(from) {
+	    transformX:translate(0);
+	}
+	#中间可以添加其他状态：25%，...等。
+	#结束状态
+        100%(to) {
+	      transformY:translate(200px);
+        }
+	}
+</pre>
+2、调用动画<br>
+<pre>
+	div {
+	     animation-name: 动画名称;
+	     animation-duration: 持续时间(s)
+	}
+</pre>
+3、常用属性：<br>
+<strong>
+	animation-delay:规定动画何时开始<br>
+	animation-iteration-count:规定动画的播放次数<br>
+	animation-direction:规定动画是否在下一周期逆向播放,默认是normal,alternate逆向播放<br>
+	animation-play-state:控制动画的播放和暂停，默认是running，还有paused<br>
+	animation-fill-mode:规定动画结束后的状态，forwards保持backwards回到起始<br>
+</strong>
