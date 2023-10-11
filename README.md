@@ -249,3 +249,8 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
 	animation-fill-mode:规定动画结束后的状态，forwards保持backwards回到起始<br>
 	简写属性：animation:名称  持续时间  运动曲线  何时开始  播放次数  是否反方向  结束状态
 </strong>
+<h2>3d转换</h2>
+1、3d转换：transform:translate3d(x,y,z),z轴由屏幕向外为正,每个属性值都不能省略，若不需要就写0。<br>
+2、透视:perspective:500px；3d效果的实现必须借助于透视属性，透视属性要加在元素的父盒子上，通过透视可以实现元素近大远小的效果，透视值越小元素越大，透视值越大元素越小。<br>
+3、3D旋转：rotateX(deg),rotateY(deg),rotateZ(deg),正值是向里旋转。也可以自定义旋转rotate(x,y,z,deg),可以看作矢量，如1,1,0,即沿着对角线旋转。<br>
+4、3D呈现：transform-style:默认flat平面展示，还有preserve-3d保留子元素的3d状态<br>
