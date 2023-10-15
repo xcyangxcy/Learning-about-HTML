@@ -254,3 +254,14 @@ border-radius: 值；，单位是px，值越大弧度越大。<br>
 2、透视:perspective:500px；3d效果的实现必须借助于透视属性，透视属性要加在元素的父盒子上，通过透视可以实现元素近大远小的效果，透视值越小元素越大，透视值越大元素越小。<br>
 3、3D旋转：rotateX(deg),rotateY(deg),rotateZ(deg),正值是向里旋转。也可以自定义旋转rotate(x,y,z,deg),可以看作矢量，如1,1,0,即沿着对角线旋转。<br>
 4、3D呈现：transform-style:默认flat平面展示，还有preserve-3d保留子元素的3d状态<br>
+<h2>flex弹性布局</h2>
+通过给父盒子添加flex属性从而控制子盒子的位置和排列方式。flex会使子级中的float、clear、vertic-align等属性失效。
+<h3>父项常见属性</h3>
+1、改变主轴，默认是x轴row，元素沿着主轴排列。flex-direcion: row/row-revers/column/column-revers<br>
+2、设置主轴上元素的排列方式，justify-content:flex-start默认值，从主轴的头部开始。flex-end从尾部开始排列。center在主轴居中对齐。space-around平分剩余空间。space-between先两边贴边再平分剩余空间<br>
+3、flex-wrap控制盒子(在一行中装不下时)是否换行,默认值是nowrap不换行，wrap换行。<br>
+4、设置侧轴上的排列方式（单行）:align-items:flex-start默认值从上到下，flex-end从下到上，center垂直居中,stretch拉伸(子盒子不能给高度)<br>
+5、设置侧轴上的排列方式（多行）:align-content:flex-start默认值头部开始，flex-end尾部开始，center侧轴居中,space-around子项在侧轴平分空间，space-between子项先在侧轴两头分布再平分空间，stretch子项平分父元素的高度<br>
+<h3>子项常见属性</h3>
+1、flex属性，定义子项分配剩余空间，用flex表示所占份数。flex:number，默认为0，使用此属性时最好不要给元素宽度，可以自动填充<br>
+2、align-self:控制单独某个盒子的排列方式
